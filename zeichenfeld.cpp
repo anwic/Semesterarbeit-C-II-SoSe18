@@ -48,7 +48,7 @@ QString zeichenFeld::serialize(){
 void zeichenFeld::deserialize(QString dateiInhalt){ //Datei einlesen
     int index = 3; // p:_
     QString punkteStr ="";
-    while(dateiInhalt[index] != ";" ){ // speicher Zahlen bis ; (Punnkteanzahl)
+    while(dateiInhalt[index] != ";" ){ // speicher Zahlen bis ; (Punkteanzahl)
         punkteStr += dateiInhalt[index];
         index = index + 1;
     }
